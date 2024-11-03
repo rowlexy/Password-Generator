@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+h2 {
+    color: #1F2937;
+}
+span {
+    color: #10B981;
+}
+
+.container, .container-two {
+    height: 50vh;
+    padding: 1.75rem;
+}
+.container {
+    background: #ECFDF5;
+}
+.container-two {
+    background: #1F2937
+}
+
+.copy-password {
+position: relative;
+
+}
+.color-white {
+    color: #ECFDF5
+}
+.copy-img {
+    width: 24px;
+    height: 24px;
+    margin-top: 0.85em;
+    position: fixed;
+    right: 35px; 
+}
+
+input {
+    padding: 0.75em;
+    width: 100%;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    color: #10B981;
+}
+::placeholder {
+    font-family: inherit;
+    text-align: left;
+}
+button {
+    padding: 0.5em;
+    border-radius: 5px;
+    background: #10B981;
+    color: #ECFDF5;
+    border: 5px solid #10B981;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+@media (min-width: 760px) {
+    input {
+        width: 300px;
+        text-align: center;
+    }
+    .copy-img {
+        left: 35px;
+    }
+    ::placeholder {
+        text-align: right;
+    }
+    button {
+        width: 300px;
+    }
+    
+}
