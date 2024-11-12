@@ -13,6 +13,7 @@ function genRandomCharacter() {
 function generatePassword() {
     let randomPassword = ""
     let random2Password = ""
+    
     for(i = 0; i < 15; i++) {
         randomPassword += genRandomCharacter()
         random2Password += genRandomCharacter()
@@ -30,6 +31,7 @@ function generate2Password() {
         pass4El.value = random4Password
     }
 }
+
 function copyPassword() {
     passEl.select()
     document.execCommand("copy") 
@@ -50,3 +52,22 @@ function copy4Password() {
     document.execCommand("copy") 
     alert("Password copied: " + pass4El.value)
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
